@@ -1,8 +1,8 @@
 {
   "name": "js-save-file",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "download files to save locally by JavaScript.",
-  "main": "src/download.js",
+  "main": "src/js-save-file.js",
   "scripts": {
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
