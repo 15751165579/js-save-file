@@ -22,7 +22,21 @@
 
 ### Example
 
+```JavaScript
+import JSSaveFile from 'js-save-file'
 
+const save = new JSSaveFile(url, '自定义下载图片名称')
+save.init()
+save.on('progress', ({ loaded, total }) => {
+  console.log(`总字节数：${total} 已加载字节数：${loaded}`)
+})
+save.on('error', () => {
+  console.log('下载失败')
+})
+save.on('complete', () => {
+  this.$message('下载完成')
+})
+```
 
 ### License
 
