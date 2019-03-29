@@ -1,11 +1,11 @@
 const path = require('path')
 module.exports = {
   entry: {
-    main: path.join(__dirname, './src/download.js')
+    main: path.join(__dirname, './src/js-save-file.js')
   },
   output: {
     path: path.join(__dirname, './dist'),
-    filename: 'download.js',
+    filename: 'js-save-file.js',
     libraryTarget: 'window'
   },
   module: {

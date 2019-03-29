@@ -8,11 +8,11 @@
 </head>
 <body>
   <button id="js-button">下载</button>
-  <script src="../dist/download.js"></script>
+  <script src="../dist/js-save-file.js"></script>
   <script>  
     window.onload = () => {
       document.getElementById('js-button').addEventListener('click', () => {
-        let download = new window.Download('https://weiliicimg9.pstatp.com/weili/sm/321588124483977262.webp', '样例')
+        let download = new JSSaveFile('https://weiliicimg9.pstatp.com/weili/sm/321588124483977262.webp', '样例')
         download.init()
         download.on('progress', ({ loaded, total}) => {
           console.log(`总字节数：${total}  已加载字节数：${loaded}`)

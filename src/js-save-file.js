@@ -1,6 +1,6 @@
 const EventEmitter = require('events')
 
-class Download extends EventEmitter {
+class JSSaveFile extends EventEmitter {
   constructor (url, filename = 'default') {
     super()
     if (!url || typeof url !== 'string') {
@@ -78,4 +78,4 @@ class Download extends EventEmitter {
     }, 0)
   }
 }
-export default Download
+export default JSSaveFile
