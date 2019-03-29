@@ -1,6 +1,6 @@
 {
   "name": "js-save-file",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "download files to save locally by JavaScript.",
   "main": "src/download.js",
   "scripts": {
