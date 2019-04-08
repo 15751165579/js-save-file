@@ -78,4 +78,4 @@ class JSSaveFile extends EventEmitter {
     }, 0)
   }
 }
-export default JSSaveFile
+module.exports = JSSaveFile
